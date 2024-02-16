@@ -1,13 +1,16 @@
 // src/components/JoinSection.js
 
 import { Link } from "react-router-dom";
+import group from './iamges/Group 3.png'
+import vector1 from './iamges/Vector 1.png'
+
 
 // import React from 'react';
 function JoinSection() {
 return ( 
     <>
     <div className="space w-full mt-10">
-        <img src="/src/ab/src/components/iamges/Group 3.png" className="w-full" alt="background-image"/>
+        <img src={group} className="w-full" alt="background-image"/>
     </div>
     <section className="flex flex-col items-center justify-between mt-10 ">
         <div className="nums w-full  grid grid-cols-3 mb-28">
@@ -40,7 +43,7 @@ return (
             Don't miss the apportunity
         </div>
         <div className="absolute w-32 h-32 kk hidden xl:block 2xl:hidden" >
-            <img className=" w-32 h-32" src="/src/ab/src/components/iamges/Vector 1.png" alt="logo"/>
+            <img className=" w-32 h-32" src={vector1} alt="logo"/>
         </div>
         </div>
     </section>

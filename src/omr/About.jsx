@@ -3,6 +3,13 @@ import '/src/omr/output.css'
 import '/src/omr/in.css'
 
 import question from "./images/question_mark.png"
+import image from "./images/image 1.png"
+import insta from "./images/mdi_instagram.png"
+import linkedin from "./images/mdi_linkedin.png"
+import brain from "./images/pink brain.png"
+import trophy from "./images/trophy and target.png"
+import vector1 from "./images/Vector (1).png"
+import vector from "./images/Vector.png"
 const About = () => {
 return (
 <div className="bg-black text-white font-bodyfont">
@@ -28,7 +35,7 @@ return (
         {/* <!-- Vission --> */}
         <div className="part2 mt2-costom flex justify-normal">
             <div className="mt-12">
-                <img src="./images/pink brain.png" alt="image brain" className="img2"/>
+                <img src={brain} alt="image brain" className="img2"/>
             </div>
             <div className="ml-7 w-costom">
                 <h1 className="text-6xl font-bold my-10 text-center">Our vision</h1>
@@ -62,13 +69,13 @@ return (
                     voluptate aliquid adipisci dolorem hic tempora, officia nam eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore exercitationem obcaecati cumque quibusdam, veniam illum ea, quia et, facilis dolor numquam esse hic accusantium. Illum iste modi dolores asperiores alias.
                 </p>
             </div>
-            <div className="mt-12 ml-12"><img src="/src/omr/images/trophy and target.png" alt="image"/></div>
+            <div className="mt-12 ml-12"><img src={trophy} alt="image"/></div>
         </div>
     </div>
     {/* <!-- footer --> */}
     <footer className="bg-gradient-to-t from-amber-950 to-black h mt-20 w-full">
         <div className="flex justify-normal px-24">
-            <img src="/src/omr/images/image 1.png" alt="image"/>
+            <img src={image} alt="image"/>
             <h2 className="ml-5 mt-2 text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-l from-orange-600 to-orange-800">Zag Eng Family</h2>
         </div>
         <div className="flex justify-normal px-24 mt-5">
@@ -100,10 +107,10 @@ return (
         <div className="col-4 my-4 px-5 ">
             <h4 className="ml-32 text-2xl">Follow us</h4>
             <ul className="ml-32">
-                <li className="mt-5"><a href="https://twitter.com/engzagfamily " target="_blank" className="text-gray-300 flex justify-normal"><img src="/src/omr/images/Vector (1).png" alt="image" className="pr-3"/>X</a></li>
-                <li className="mt-3"><a href="https://www.facebook.com/zagengfamily" target="_blank" className="text-gray-300 flex justify-normal"><img src="/src/omr/images/Vector.png" alt="image" className="pr-3"/>Facebook</a></li>
-                <li className="mt-3"><a href="https://www.instagram.com/zagengfamily/" target="_blank" className="text-gray-300 flex justify-normal"><img src="/src/omr/images/mdi_instagram.png" alt="image" className="pr-3"/>Instagram</a></li>
-                <li className="mt-3"><a href="https://www.linkedin.com/company/zagengfamily" target="_blank" className="text-gray-300 flex justify-normal"><img src="/src/omr/images/mdi_linkedin.png" alt="image" className="pr-3"/>Linkedin</a></li>
+                <li className="mt-5"><a href="https://twitter.com/engzagfamily " target="_blank" className="text-gray-300 flex justify-normal"><img src={vector1} alt="image" className="pr-3"/>X</a></li>
+                <li className="mt-3"><a href="https://www.facebook.com/zagengfamily" target="_blank" className="text-gray-300 flex justify-normal"><img src={vector} alt="image" className="pr-3"/>Facebook</a></li>
+                <li className="mt-3"><a href="https://www.instagram.com/zagengfamily/" target="_blank" className="text-gray-300 flex justify-normal"><img src={insta} alt="image" className="pr-3"/>Instagram</a></li>
+                <li className="mt-3"><a href="https://www.linkedin.com/company/zagengfamily" target="_blank" className="text-gray-300 flex justify-normal"><img src={linkedin} alt="image" className="pr-3"/>Linkedin</a></li>
                 
             </ul>
         </div>

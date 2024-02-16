@@ -1,6 +1,9 @@
 // src/components/StructureSection.js
 
 // import React from 'react';
+import unsplash2 from './iamges/unsplash_9BoqXzEeQqM (2).png'
+import unsplash3 from './iamges/unsplash_9BoqXzEeQqM (3).png'
+import i38 from './iamges/380657223_881796083025264_2558736653751751045_n.jpg'
 
 function StructureSection() {
 return (
@@ -12,7 +15,7 @@ return (
 
                 <div className="box overflow-hidden ">
 
-                    <img className="img  hover:scale-110 transition ease-in-out duration-500 rounded-[10px]" src="/src/ab/src/components/iamges/unsplash_9BoqXzEeQqM (3).png" alt="iamge "/>  
+                    <img className="img  hover:scale-110 transition ease-in-out duration-500 rounded-[10px]" src={unsplash3} alt="iamge "/>  
                     
                     <h1 className="text-2xl font-semibold mt-3">academic committee</h1>
                     
@@ -29,7 +32,7 @@ return (
                 </div>
 
                 <div className="box overflow-hidden">
-                    <img className="img hover:scale-110 transition ease-in-out duration-500 rounded-[10px]" src="./src/ab/src/components/iamges/unsplash_9BoqXzEeQqM (2).png" alt="iamge"/>
+                    <img className="img hover:scale-110 transition ease-in-out duration-500 rounded-[10px]" src={unsplash2} alt="iamge"/>
                     <h1 className="text-2xl font-semibold mt-3">information technology</h1>
                     <p className="my-3  text-gray-300">Lorem ipsum dolor sit amet consectetur.
                     Faucibus odio pellentesque eu mattis eget enim facilisis volutpat. Venenatis sit ...
@@ -44,7 +47,7 @@ return (
                 </div>
 
                 <div className="box overflow-hidden">
-                    <img className="img hover:scale-110 transition ease-in-out duration-500 rounded-[10px]" src="/src/ab/src/components/iamges/380657223_881796083025264_2558736653751751045_n.jpg" alt="iamge"/>
+                    <img className="img hover:scale-110 transition ease-in-out duration-500 rounded-[10px]" src={i38} alt="iamge"/>
                     <h1 className=" text-2xl font-semibold mt-3">human resources</h1>
                     <p className="my-3  text-gray-300">Lorem ipsum dolor sit amet consectetur.
                     Faucibus odio pellentesque eu mattis eget enim facilisis volutpat. Venenatis sit ...
