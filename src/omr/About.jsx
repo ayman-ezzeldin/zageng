@@ -28,7 +28,7 @@ return (
         {/* <!-- Vission --> */}
         <div className="part2 mt2-costom flex justify-normal">
             <div className="mt-12">
-                <img src="/src/omr/images/pink brain.png" alt="image brain" className="img2"/>
+                <img src="./images/pink brain.png" alt="image brain" className="img2"/>
             </div>
             <div className="ml-7 w-costom">
                 <h1 className="text-6xl font-bold my-10 text-center">Our vision</h1>
