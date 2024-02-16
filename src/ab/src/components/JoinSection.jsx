@@ -12,7 +12,7 @@ return (
     <div className="space w-full mt-10">
         <img src={group} className="w-full" alt="background-image"/>
     </div>
-    <section className="flex flex-col items-center justify-between mt-10 ">
+    <section className="flex flex-col lg:mt-[-300px] items-center justify-between  ">
         <div className="nums w-full  grid grid-cols-3 mb-28">
             <div className="num text-center border-r-2"> 
                 <h1 className="text-4xl font-bold mb-2">24k+</h1>
@@ -34,7 +34,8 @@ return (
                 We target talents with different skills and capabilities.
             Hurry yp and don't miss this exceptional opportunity!</p>
             <span className="flex justify-start items-center text-xl my-5 ll">
-                <Link className="mr-2 text-green-400" to='/join' >Fill the form</Link>
+                {/* <Link className="mr-2 text-green-400 " to='/join' >Fill the form</Link> */}
+                <Link to='/join' className="p-4 mt-4 mb-8 cursor-pointer hover:scale-105 transition ease-in-out duration-500 leading-10 tracking-wide text-2xl rounded-xl text-green-500 font-bold ">Fill the form </Link> 
                 {/* <i className="fa-solid fa-arrow-right " style="color: #0fe66c;"></i> */}
             </span>
             

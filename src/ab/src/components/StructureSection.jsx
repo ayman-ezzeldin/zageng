@@ -15,7 +15,7 @@ return (
 
                 <div className="box overflow-hidden ">
 
-                    <img className="img  hover:scale-110 transition ease-in-out duration-500 rounded-[10px]" src={unsplash3} alt="iamge "/>  
+                    <img className="img  hover:scale-105 transition ease-in-out duration-500 sm:w-full rounded-[10px]" src={unsplash3} alt="iamge "/>  
                     
                     <h1 className="text-2xl font-semibold mt-3">academic committee</h1>
                     
@@ -32,7 +32,7 @@ return (
                 </div>
 
                 <div className="box overflow-hidden">
-                    <img className="img hover:scale-110 transition ease-in-out duration-500 rounded-[10px]" src={unsplash2} alt="iamge"/>
+                    <img className="img hover:scale-105 transition ease-in-out duration-500 sm:w-full rounded-[10px]" src={unsplash2} alt="iamge"/>
                     <h1 className="text-2xl font-semibold mt-3">information technology</h1>
                     <p className="my-3  text-gray-300">Lorem ipsum dolor sit amet consectetur.
                     Faucibus odio pellentesque eu mattis eget enim facilisis volutpat. Venenatis sit ...
@@ -47,7 +47,7 @@ return (
                 </div>
 
                 <div className="box overflow-hidden">
-                    <img className="img hover:scale-110 transition ease-in-out duration-500 rounded-[10px]" src={i38} alt="iamge"/>
+                    <img className="img hover:scale-105 transition ease-in-out duration-500 rounded-[10px]" src={i38} alt="iamge"/>
                     <h1 className=" text-2xl font-semibold mt-3">human resources</h1>
                     <p className="my-3  text-gray-300">Lorem ipsum dolor sit amet consectetur.
                     Faucibus odio pellentesque eu mattis eget enim facilisis volutpat. Venenatis sit ...
