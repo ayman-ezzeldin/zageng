@@ -11,19 +11,19 @@ const JoinZagEngPage = () => {
             <div className="groupInputs col-span-6 md:border-l-2 pl-2 md:pl-8 w-[86%] mx-auto" > 
                 <div className="mb-4">
                   <label htmlFor="" className="block font-bold mb-2 ">Full Name</label>
-                  <input type="text" placeholder="Your Name" className=" bg-black border border-gray-700 shadow appearance-none  rounded w-full py-2 px-3 text-gray-200 leading-tight focus:outline-none focus:shadow-outline " required />
+                  <input type="text" placeholder="Your Name" className="py-3 bg-black border border-gray-700 shadow appearance-none  rounded w-full py-2 px-3 text-gray-200 leading-tight focus:outline-none focus:shadow-outline " required />
                 </div>
                 <div className="mb-4">
                   <label htmlFor="" className="block font-bold mb-2 ">Email</label>
-                  <input type="email" placeholder="Your Email" className=" bg-black border border-gray-700 shadow appearance-none  rounded w-full py-2 px-3 text-gray-200 leading-tight focus:outline-none focus:shadow-outline " required />
+                  <input type="email" placeholder="Your Email" className="py-3 bg-black border border-gray-700 shadow appearance-none  rounded w-full py-2 px-3 text-gray-200 leading-tight focus:outline-none focus:shadow-outline " required />
                 </div>
                 <div className="mb-4">
                   <label htmlFor="" className="block font-bold mb-2 ">Phone</label>
-                  <input type="tel" placeholder="Your Number" className=" bg-black border border-gray-700 shadow  rounded w-full py-2 px-3 text-gray-200 leading-tight focus:outline-none focus:shadow-outline appearance-none  " required />
+                  <input type="tel" placeholder="Your Number" className=" py-3 bg-black border border-gray-700 shadow  rounded w-full py-2 px-3 text-gray-200 leading-tight focus:outline-none focus:shadow-outline appearance-none  " required />
                 </div>
                 <div className="mb-4">
                   <label htmlFor="" className="block font-bold mb-2 ">Destination</label>
-                  <select className=" bg-black border border-gray-700 shadow  rounded w-full py-2 px-3 text-gray-300 leading-tight focus:outline-none focus:shadow-outline  " required>
+                  <select className=" py-3 bg-black border border-gray-700 shadow  rounded w-full py-2 px-3 text-gray-300 leading-tight focus:outline-none focus:shadow-outline  " required>
                     <option value="Preparatory engineering">Preparatory engineering</option>
                     <option value="Computer and Syatems Engineering">Computer and Syatems Engineering</option>
                     <option value="Electrical Communications Engineer">Electrical Communications Engineer</option>
