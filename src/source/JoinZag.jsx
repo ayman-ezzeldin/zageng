@@ -7,7 +7,7 @@ const JoinZagEngPage = () => {
         <h1 className=" text-5xl font-bold ml-4 md:ml-9 pl-4 pt-14 ">Join ZagEng</h1>
         <form className=" ">
           <div className=" grid grid-cols-3 md:grid-cols-8 gap-4 mt-16">
-            <h2 className="text-2xl text-center col-span-2  ">Basic information</h2>
+            <h2 className="text-2xl text-center md:ml-0 md:text-center col-span-3 md:col-span-2  ">Basic information</h2>
             <div className="groupInputs col-span-6 md:border-l-2 pl-2 md:pl-8 w-[86%] mx-auto" > 
                 <div className="mb-4">
                   <label htmlFor="" className="block font-bold mb-2 ">Full Name</label>
@@ -41,7 +41,7 @@ const JoinZagEngPage = () => {
           </div>
           <CommitteeSelection/>
           <div className=" grid grid-cols-3 md:grid-cols-8 gap-4 mt-9">
-            <h2 className="text-2xl text-center col-span-2 ">Committee questions</h2>
+            <h2 className="text-2xl text-center md:ml-0 md:text-right col-span-3 md:col-span-2 ">Committee questions</h2>
               <div className="groupInputs col-span-6 md:border-l-2 pl-2 md:pl-8 w-[86%]  mx-auto" >
                 <div>
                   <label htmlFor="" className=" block font-bold mb-2 ">Why did you choose this committee?</label>
@@ -71,68 +71,3 @@ const JoinZagEngPage = () => {
 export default JoinZagEngPage;
 
 
-
-/*
-
-
-const FormWithSections = () => {
-  return (
-    <>
-      <form action="">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-9">
-          <h1 className=" text-2xl text-center ">this is inputs</h1>
-          <div className="groupInputs md:border-l-2 pl-5 w-[86%] mx-auto">
-            <div className="mb-4">
-              <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="username">
-                Username
-              </label>
-              <input
-                className=" shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="username"
-                type="text"
-                placeholder="Username"
-              />
-            </div>
-            <div className="mb-4">
-              <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="username">
-                Username
-              </label>
-              <input
-                className=" shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="username"
-                type="text"
-                placeholder="Username"
-              />
-            </div>
-            <div className="mb-4">
-              <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="username">
-                Username
-              </label>
-              <input
-                className=" shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="username"
-                type="text"
-                placeholder="Username"
-              />
-            </div>
-            <div className="mb-4">
-              <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="username">
-                Username
-              </label>
-              <input
-                className=" shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="username"
-                type="text"
-                placeholder="Username"
-              />
-            </div>
-          </div>
-        </div>
-      </form>
-    </>
-  )
-}
-
-export default FormWithSections
-
-*/
