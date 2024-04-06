@@ -17,14 +17,14 @@ function CommitteeSelection() {
   };
 
   return (
-    <div className="flex gap-5 justify-center items-start flex-wrap mt-9 sm:mr-[50px]">
-      <h2 className="text-2xl">Choose your committee</h2>
-      <div className="sm:border-l-2 pl-4 sm:pl-5 flex flex-col gap-4 flex-wrap">
-        <div id="commitee" className="grid grid-cols-3 justify-center text-center items-center gap-4 mr-4">
+    <div className="grid grid-cols-3 md:grid-cols-8 gap-4 mt-9"> 
+      <h2 className="text-2xl text-center md:ml-0 md:text-right col-span-3 md:col-span-2 ">Choose your committee</h2> 
+      <div className="groupInputs col-span-6 md:border-l-2 pl-2 md:pl-8  w-[86%] mx-auto"> 
+        <div id="commitee" className="grid grid-cols-3 justify-center text-center items-center gap-4 mr-4"> 
           {committeeMembers.map((committee) => (
             <div
               key={committee.id}
-              className={`committee-member cursor-pointer lg:w-[197px] rounded-md border border-gray-700 px-2 py-4 select-none ${
+              className={`committee-member cursor-pointer lg:w-[197px] rounded-md border border-gray-700 px-2 py-4 font-bold select-none ${ 
                 selectedCommittee === committee.id ? 'selected' : ''
               }`}
               onClick={() => handleCommitteeClick(committee.id)}
